@@ -1,5 +1,10 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0fAmjbqd4ac2GtpzF2Op0XyPOq4TIlZYO6wgxcJtz-l-Dgl5B);
+    
+}
 h1 {
     text-align: center;
+    color: black;
 }
 
 #cart {
@@ -12,6 +17,7 @@ h1 {
 .column {
     width: 18%;
     padding: 25px 0px;
+    color: white;
 }
 
 #images img {
@@ -53,6 +59,7 @@ h1 {
     width: 75%;
     margin: 0 auto 20px auto;
     font-size: 18px;
+    color: white;
 }
 
 input {

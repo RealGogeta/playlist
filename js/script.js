@@ -44,6 +44,10 @@ function displaySongInfo(){
 
 function emptySongInfo(){
     $("#songs").empty();
+    $("#images").empty();
+    $("#artists").empty();
+    $("#lengths").empty();
+    $("#links").empty();
     // Use jQuery to empty all of the remaining divs
 
 
@@ -57,6 +61,18 @@ function addSongInfo(){
 }
 
 $("#add").click(function() {
+    var songName = $("#song").val();
+    var imageUrl = $("#image").val();
+    var artistName = $("#artist").val();
+    var songLength = $("#length").val();
+    var link = $("#links").val();
+
+    songs.push(songName);
+    artists.push(artistName);
+    images.push(imageUrl);
+    lengths.push(songLength);
+    links.push(link);
+
     emptySongInfo();
     addSongInfo();
     displaySongInfo();
